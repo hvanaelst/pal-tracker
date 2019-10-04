@@ -35,7 +35,7 @@ public class TimeEntry {
 	public long getProjectId() { return projectId; }
 	public long getUserId() { return userId; }
 	public LocalDate getDate() { return date; }
-	public long getHours() { return hours; }
+	public int getHours() { return hours; }
 
 	@Override
 	public boolean equals(Object anotherTimeEntry) {
